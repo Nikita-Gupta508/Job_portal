@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 
 const corsOptions = {
-  origin: ["http://localhost:5176"],
+  origin: ["https://job-portal-pied-ten.vercel.app"],
   credentials: true,
 };
 
